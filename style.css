@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #34495e;
+}
+
+#menu {
+    display: flex;
+    height: 3em;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: #d1d2d4;
+    
+    
+}
+#logo {
+    margin-left: 40px;
+    font-size: 22px;
+    margin-top: 0.5em;
+}
+#menu ul {
+    list-style-type: none;
+    flex-grow: 2;
+    text-align: right;
+    font-size: 20px;
+
+}
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 0.5em;
+    width: 100px;
+    height: 1.5em;
+    text-align: center;
+}
+li a {
+    text-decoration: none;
+   
+}
+
+#with_pic {
+    background-image: url("hamburger.jpg");
+    height: 800px;
+    position: relative;
+}
+#with_pic p {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 30px;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#about img {
+    
+    margin-right: 30px;
+    width: 30vw;
+}
+
+#about div {
+    margin-left: 30px;
+    width: 30vw;
+
+}
+#about h1, #about p#num1{
+    text-align: center;
+}
+
+#about p#num1 {
+    margin-top: 35px;
+}
+#about p#num2 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+#about p#num3 {
+    margin-top: 20px;
+    color: #989b9f;
+    font-size: 18px;
+}
+#about p#num2 span {
+    background-color: #acafb2;
+}
+
+#line {
+    height: 60px;
+    border-bottom: 1px solid grey;
+    width: 80vw;
+    margin: auto;
+
+}
+
+#our_menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+#our_menu img {
+    margin-left: 30px;
+
+}
+
+#our_menu div {
+    margin-right: 30px;
+    
+}
+#our_menu div h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#our_menu div h3 {
+    margin-bottom: 25px;
+}
+
+#our_menu div p {
+    margin-bottom: 55px;
+}
+
+#line2 {
+    height: 60px;
+    border-bottom: 1px solid grey;
+    width: 80vw;
+    margin: auto;
+
+}
+#contact {
+    
+    width: 60vw;
+    margin: auto;
+    margin-top: 70px;
+}
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#contact input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    height: 50px;
+    margin-bottom: 40px;
+}
+#contact button {
+    background: #d1d2d4;
+    outline: 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+#contact input:focus {
+    border: 2px solid rgb(20, 20, 20);
+}
+
+#contact button:hover {
+    background: #a2a7af;
+}
+#menu li:hover {
+    background-color: #d1d2d4;;
+}
